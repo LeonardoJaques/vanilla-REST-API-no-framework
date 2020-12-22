@@ -1,0 +1,20 @@
+{
+  "name": "register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 1000,",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Leonardo Jaques<jaques.projetos@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "nodemon": "^2.0.6",
+    "uuid": "^8.3.2"
+  }
+}
